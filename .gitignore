@@ -1,0 +1,24 @@
+# input data (download separately, see README) and caches
+data/
+.cache_cd/
+# model weights (published as a release asset, not in git)
+checkpoints/
+*.pt
+# large intermediate files
+results/qualitative/
+results/_locks/
+*.npy
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+paper/**/main.pdf
+__pycache__/
+
+# run log written by utils.log_change
+change_log.md
