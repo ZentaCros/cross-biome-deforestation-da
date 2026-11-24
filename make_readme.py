@@ -169,12 +169,6 @@ had been damaged during a file copy without any error; the checksums are those o
 | `paper/` | LaTeX source (`main.tex`) and `pfg/build_pfg.py` (Springer Nature layout) |
 | `data_aux/` | SHA-256 checksums of the input files; Natural Earth boundaries for the study-area map |
 
-## Use of AI tools
-
-Claude (Anthropic), used through Claude Code, helped write and debug this code and draft the paper text, as
-described in Section 4.5 of the paper. Every reported number is generated from the logged run outputs and
-checked by `paper/audit_numbers.py`; no figure was created or altered with generative AI.
-
 ## Related repository
 
 This repository replaces the results of the author's earlier project
